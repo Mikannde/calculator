@@ -1,0 +1,40 @@
+.calcBody {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 40em;
+    width: 28em;
+    margin: auto;
+    background-color: gray;
+    outline: 1px solid black;
+}
+
+.calcScreen {
+    position: relative;
+    height: 10em;
+    width: 100%;
+    background-color: rgb(127, 127, 255);
+}
+
+.calcOperations {
+    display: flex;
+    background-color: greenyellow;
+    height: 6em;
+    width: 100%;
+}
+
+.calcNumbers {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    height: 20em;
+    width: 100%;
+}
+
+.calcBtn {
+    background-color: azure;
+    height: 5em;
+    width: 9em;
+}
